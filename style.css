@@ -132,6 +132,10 @@ h2{
 	background-color:#fae8da ;
 	box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.301);
 }
+#team{
+	margin-left: 0;
+	margin-right: 0;
+}
 .team-member{
 	background-color: #344b52;
 
