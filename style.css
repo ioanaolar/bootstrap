@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Sora&display=swap');
+h1{
+	font-size: 4vh ;
+}
+h2{
+	margin-top: 30px;
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	font-family: merienda;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+	font-family: poppins;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	background: #262626;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+}
+.carousel-item:after{
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.6);
+}
+.navbar{
+	background-color: #587983;
+}
+.navbar-nav a {
+	font-family: oswald;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+.column-left{
+	min-height: 650px;
+	
+	background-image: url("images/blue-cool.jpg");
+	background-position: 0px 0 px, 100% 50%;
+	background-size: auto,cover;
+	background-attachment: scroll, scroll;
+	object-fit: cover;
+	-o-object-fit: cover;
+}
+#services{
+	background-color: #cfd3ca;
+}
+.title-sm{
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.section-intro{
+	text-align: center;
+	margin-bottom: 60px;
+}
+.section-intro .hline{
+	width: 100px;
+	height: 2px;
+	background-color: rgba(0, 0, 0, 0.425);
+	margin: 16px auto 0 auto;
+}
+.icon-box{
+	width: 60px;
+	height: 60px;
+	background-color: #587983;
+	color: white;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 32px;
+}
+#rooms{
+	background-color: #9db3b4;
+	padding: 30px 0px;
+}
+.card-body{
+	background-color:#fae8da ;
+	box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.301);
+}
+.team-member{
+	background-color: #344b52;
+
+}
+.team-member.even{
+	background-color:#587983 ;
+}
+.team-member .hline{
+	width: 70px;
+	height: 2px;
+	margin: 16px auto;
+	background-color: rgba(255, 255, 255, 0.473);
+}
+.team-member .team-member-img img,
+.team-member .team-member-img .social-icons{
+	transition: all 0.6 ease;
+
+}
+.team-member .team-member-img{
+	position: relative;
+	overflow: hidden;
+}
+.team-member .team-member-img .social-icons{
+	width: 100%;
+	height: 60px;
+	background-color: #c1c5d6;
+	position: absolute;
+	bottom: -60px;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.team-member .team-member-img .social-icons a{
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid rgba(255, 255, 255, 0,5);
+	font-size: 24px;
+	color: white;
+	border-radius: 100px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.team-member .team-member-img .social-icons a:hover{
+	background-color: white;
+	color:#c1c5d6 ;
+}
+.team-member:hover .team-member-img .social-icons{
+	bottom: 0;
+}
+.team-member:hover img{
+	transform: translateY(-60px);
+}
+.footer-top{
+	background-color: #fae8da;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+.footer-bottom{
+	background-color:#fcf3ed;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 1px solid rgba(0,0,0,0.1);
+}
+footer .footer-links a,
+footer .social-icons a{
+	color:#344b52;
+}
+footer .social-icons a{
+	font-size: 24px;
+}
+footer .footer-links a{
+	display: block;
+	font-weight: 400;
+}
+footer .social-icons a:hover,
+footer .footer-links a:hover{
+	color: #587983;
+}
+
